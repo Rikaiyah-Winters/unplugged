@@ -162,7 +162,7 @@ header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: rpw wrap;
+  flex-flow: row wrap;
   margin: 0;
 }
 
@@ -244,7 +244,8 @@ footer .copyright {
   display: flex;
   justify-content: center; /*I think this doesn't have align-items: center because it has text that is left aligned.*/
   flex-flow: row wrap;
-  background: url('../img/jake-melara-30679-unsplash.jpg') center no-repeat #333;
+  background: url('../img/jake-melara-30679-unsplash.jpg');
+  background-position: center;
   background-size: cover;
   min-height: 500px;
 }
@@ -298,7 +299,8 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background: url(../img/rawpixel-800820-unsplash1.jpg) center no-repeat #333;
+  background: url(../img/rawpixel-800820-unsplash1.jpg);
+  background-position: center;
   background-size: cover;
 }
 
@@ -563,7 +565,7 @@ input[type=button] {
   }
 
   aside .content-wrapper .form-description, aside .content-wrapper .form {
-    width: 40%;
+    width: 35%;
     margin: 0;
   }
 
@@ -596,7 +598,7 @@ input[type=button] {
     width: 85%;
   }
 
-  .reviews article div {
+  .reviews article figure, .reviews article div {
     width: 49%;
   }
 
@@ -646,6 +648,10 @@ input[type=button] {
 
   .mission-content p {
     width: 45%;
+  }
+
+  .map figure {
+  padding-bottom: 45.5%;
   }
 
   .contact-section .content-wrapper h2 {
@@ -720,7 +726,7 @@ input[type=button] {
   }
 
   aside .content-wrapper .form-description, aside .content-wrapper .form {
-    width: 30%;
+    width: 40%;
   }
 
   .form-description p {
@@ -755,6 +761,11 @@ input[type=button] {
 
   .mission h2, .contact-section .content-wrapper h2 {
     width: 95%;
+    font-size: 3em;
+  }
+
+  .map figure {
+    padding-bottom: 37.5%;
   }
 
   .contact-content h4 {
